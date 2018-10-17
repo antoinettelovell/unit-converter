@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+     crossorigin="anonymous">
+     <link rel = "stylesheet" href = "style.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div class = "container">
+    <h1 class = "text-center display-4 mb-3">Unit Converter</h1>
+           <div class = "input-group">
+                <input class = "form-control" type = "number" name =
+               "inputValue" id = "inputValue" placeholder = "Enter Number..."/>
+               <div class = "input-group-append">
+                    <select class = "btn" id = "unit">
+                        <optgroup label = "Weight">
+                            <option>lbs</option>
+                            <option>Grams</option>
+                            <option>Kilograms</option>
+                            <option>Ounces</option>
+                        </optgroup>
+                        <optgroup label = "Temperature">
+                            <option>Fahrenheit</option>
+                            <option>Centigrade</option>
+                        </optgroup>
+                        <optgroup label = "Distance">
+                            <option>Meters</option>
+                            <option>Miles</option>
+                            <option>Inches</option>
+                        </optgroup>
+                    </select>
+               </div>
+           </div> 
+           <div id = "output"></div> 
+        </div>
+       <script src = "main.js"></script>   
+</body>
+
+</html>
